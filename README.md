@@ -8,3 +8,6 @@
 `code`
 
 Juraj
+
+
+[zoznam todo](todo.md)
