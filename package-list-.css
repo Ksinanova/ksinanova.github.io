@@ -1,0 +1,17 @@
+#id_table_svatby {
+    border: 1px solid black;
+}
+
+#id_table_svatby > thead {
+    color: white;
+    background-color: #60418b;
+}
+
+#id_table_svatby > tbody {
+    border: 1px solid green;
+}
+
+#id_table_svatby > tbody > tr > td {
+    border: 1px solid black;
+    border-left: 0;
+}
