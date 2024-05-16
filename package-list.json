@@ -1,0 +1,165 @@
+{
+  "list_of_packages": [
+    {
+      "name_of_package": "Bride and groom A",
+      "time_of_photoshooting": "In the twilight",
+      "photos_of_package": [
+        {
+          "place_of_photoshooting": "Church",
+          "people": [
+            {
+              "name": "Bride"
+            },
+            {
+              "name": "Groom"
+            }
+          ]
+        },
+        {
+          "place_of_photoshooting": "Outside",
+          "people": [
+            {
+              "name": "Bride"
+            },
+            {
+              "name": "Groom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name_of_package": "Bride and groom B",
+      "time_of_photoshooting": "Sunset",
+      "photos_of_package": [
+        {
+          "place_of_photoshooting": "Outside",
+          "people": [
+            {
+              "name": "Bride"
+            },
+            {
+              "name": "Groom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name_of_package": "Bride and groom C",
+      "time_of_photoshooting": "Midnight",
+      "photos_of_package": [
+        {
+          "place_of_photoshooting": "Outside",
+          "people": [
+            {
+              "name": "Bride"
+            },
+            {
+              "name": "Groom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name_of_package": "Newlyweds and their parents",
+      "time_of_photoshooting": "In the twilight",
+      "photos_of_package": {
+        "place_of_photoshooting": "Church",
+        "people": [
+          {
+            "name": "Bride"
+          },
+          {
+            "name": "Mother of bride"
+          },
+          {
+            "name": "Father of bride"
+          },
+          {
+            "name": "Groom"
+          },
+          {
+            "name": "Mother of groom"
+          },
+          {
+            "name": "Father of groom"
+          }
+        ]
+      }
+    },
+    {
+      "name_of_package": "Newlyweds and their parents",
+      "time_of_photoshooting": "Sunset",
+      "photos_of_package": {
+        "place_of_photoshooting": "Church",
+        "people": [
+          {
+            "name": "Bride"
+          },
+          {
+            "name": "Mother of bride"
+          },
+          {
+            "name": "Father of bride"
+          },
+          {
+            "name": "Groom"
+          },
+          {
+            "name": "Mother of groom"
+          },
+          {
+            "name": "Father of groom"
+          }
+        ]
+      }
+    },
+    {
+      "name_of_package": "Newlyweds and their siblings",
+      "time_of_photoshooting": "In the twilight",
+      "photos_of_package": [
+        {
+          "place_of_photoshooting": "Church",
+          "people": [
+            {
+              "name": "Siblings of bride with bride"
+            },
+            {
+              "name": "Siblings of groom with groom"
+            }
+          ]
+        },
+        {
+          "place_of_photoshooting": "Outside",
+          "people": [
+            {
+              "name": "Siblings of bride with bride"
+            },
+            {
+              "name": "Siblings of groom with groom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name_of_package": "Newlyweds and their friends",
+      "time_of_photoshooting": "Sunset",
+      "photos_of_package": [
+        {
+          "place_of_photoshooting": "Outside",
+          "people": [
+            {
+              "name": "Newlyweds and their friends"
+            },
+            {
+              "name": "Friends"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
