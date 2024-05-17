@@ -1,0 +1,36 @@
+#id_table_data {
+    border: 1px solid black;
+    margin: auto;
+    font-family: 'Lucida Handwriting';
+}
+
+#id_table_data > thead {
+    color: black;
+    background-color: #60418b;
+}
+
+#id_table_data > tbody {
+    border: 1px solid green;
+}
+
+#id_table_data > tbody > tr:nth-child(2n+1) {
+    background-color: floralwhite;
+}
+
+#id_table_data > tbody > tr:nth-child(2n) {
+    background-color: #dff2f6;
+}
+
+#id_table_data > tbody > tr:hover {
+    background-color: #c7b7b7;
+}
+
+#id_table_data > thead > tr > th {
+    background-color: #bbd7e0;
+}
+
+#id_table_data > tbody > tr > td {
+    border: 1px solid black;
+    border-left: 0;
+    padding: 6px;
+}

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- style sheet main -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="package-list.css">
+    <script type="text/javascript" src="package-list.js"></script>
+</head>
+<body >
+    <div id="body_container">
+        <div id="company_logo">
+            <img src="icons/logo.png" class="logo" alt="a2">
+            <div class="headline">Artemis</div>
+            <div class="headline" id="headline-studio">Studio</div>
+        </div>
+        <div class="clear-both"></div>
+        <div id="body_container_padding">
+            <div>
+                <div class="navigation">
+                    <nav id="site_nav">
+                        <a class="active" href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="package-list.html">Package List</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="log_in_register.html">Log In/Register</a>
+                    </nav>
+                </div>
+            </div>
+            <div>
+                <button type="button" onclick="read_data_and_display_table()">Load!</button>
+                <span id="error-price-list" class="form-error"></span>
+            </div>
+            <table id="id_table_data">
+                <thead>
+                    <tr>
+                        <th id="td_package">Package</th>
+                        <th id="td_day">Time</th>
+                        <th id="td_place">Place</th>
+                        <th id="td_person">Person</th>
+                    </tr>
+                </thead>
+                <tbody id="id_table_packages_data"><tr><td colspan="4">List is empty. Reload?</td></tr></tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

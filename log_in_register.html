@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="...">
+    <title>Artemis studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="validator.js"></script>
+</head>
+<body>
+    <div id="body_container">
+        <div id="company_logo">
+            <img src="icons/logo.png" class="logo" alt="a2">
+            <div class="headline">Artemis</div>
+            <div class="headline" id="headline-studio">Studio</div>
+        </div>
+        <div class="clear-both"></div>
+        <div id="body_container_padding">
+            <div>
+                <div class="navigation">
+                    <nav id="site_nav">
+                        <a href="index.html">Home</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="package-list.html">Package List</a>
+                        <a href="contact.html">Contact</a>
+                        <a class="active" href="log_in_register.html">Log In/Register</a>
+                    </nav>
+                </div>
+                <div class="clear-both"></div>
+            </div>
+            <div class="form-box">
+                <form id="form-login" action="">
+                    <h2>Login</h2>
+                    <div class="login-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <label class="width">Email</label>
+                        <input type="email">
+                    </div>
+                    <div class="login-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <label class="width">Password</label>
+                        <input type="password">
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                    </div>
+                    <div>
+                        <button id="submit" type="submit">Login</button>
+                        <div id="link-forgot"><a href="#">Forgot Password?</a></div>
+                    </div>
+                </form>
+            </div>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <div class="form-box">
+                <form id="form-register" action="">
+                    <h2>Register</h2>
+                    <div>
+                        <br>
+                        <label for="title">Title:</label>
+
+                        <label>Mr.</label>
+                        <input id="title_mr" name="title" type="radio" value="Mr.">
+
+                        <label>Mrs.</label>
+                        <input id="title_mrs" name="title" type="radio" value="Mrs.">
+
+                        <label>Miss</label>
+                        <input id="title_miss" name="title" type="radio" value="Miss">
+                    </div>
+                    <div id="error_title" class="form-error"></div>
+                    <div>
+                        <label class="width" for="name">Name:</label>
+                        <input id="name_register" name="name_register" type="text" placeholder="Caroline">
+                        <div id="error_name_register" class="form-error"></div>
+                    </div>
+                    <div>
+                        <label class="width" for="surname">Surname:</label>
+                        <input id="surname_register" name="surname_register" type="text" placeholder="Fields">
+                        <div id="error_surname_register" class="form-error"></div>
+                    </div>
+                    <div>
+                        <label class="width" for="email">E-maila:</label>
+                        <input id="email_register" name="email_register" type="text" placeholder="caroline.fields@gmail.com">
+                        <div id="error_email_register" class="form-error"></div>
+                    </div>
+                    <div>
+                        <label class="width" for="password">Password:</label>
+                        <input id="password_register" name="password_register" type="password" placeholder="***********" maxlength="20">
+                        <div id="error_password_register" class="form-error"></div>
+                    </div>
+                    <div>
+                        <label class="width" for="confirm-password">Confirm Password:</label>
+                        <input id="password_confirm_register" name="password_confirm_register" type="password" placeholder="***********" maxlength="20">
+                        <div id="error_password_confirm_register" class="form-error"></div>
+                    </div>
+                    <div>
+                        Tell us about yourself:
+                        <textarea rows="5" cols="35" id="contact_about" name="contact_about"></textarea>
+                        <div id="error_contact_about" class="form-error"></div>
+                    </div>
+
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
