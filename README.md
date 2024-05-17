@@ -1,3 +1,0 @@
-# ksinanova.github.io
-
-
